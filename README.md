@@ -17,22 +17,31 @@
 ### To use the code you need (Linux):
 
 <h3>1. Сreate a virtual environment: </h3>
+
 ``` 
 virtualenv venv 
 ```
+
 <h3>2. Active your virtual environment: </h3>
+
 ```
 source venv/bin/activate
 ```
+
 <h3>3. Install all dependencies </h3>
+
 ```
 pip install -r requirements.txt
 ```
+
 <h3>4. Conduct migrations </h3>
+
 ```
 python manage.py migrate
 ```
+
 <h3>5. Run the program </h3>
+
 ```
 python manage.py runserver
 ```
